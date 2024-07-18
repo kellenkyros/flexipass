@@ -5,8 +5,8 @@ require_relative "lib/flexipass/version"
 Gem::Specification.new do |spec|
   spec.name = "flexipass"
   spec.version = Flexipass::VERSION
-  spec.authors = ["Shiju Devarajan"]
-  spec.email = ["shijudevarajan@gmail.com"]
+  spec.authors = ["Kellen Kyros"]
+  spec.email = ["kellenkyros@gmail.com"]
 
   spec.summary = "Flexipass mobile key integration gem."
   spec.description = "A Ruby gem allows you to easily interact with Flexipass APIs"
