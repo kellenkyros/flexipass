@@ -94,6 +94,18 @@ list_params = {
 response = mobile_key.list(door, list_params)
 ```
 
+#### Fetch company details
+```
+company = client.company
+response = company.details
+```
+
+#### Fetch company permissions
+```
+company = client.company
+response = company.permissions
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
