@@ -1,6 +1,7 @@
 # lib/flexipass/configuration.rb
 
 module Flexipass
+  # The `Flexipass` module provides configuration options for the Flexipass gem.
   class Configuration
     attr_accessor :username, :password, :company_token, :environment, :enable_logging
     attr_reader :server_address
@@ -18,6 +19,8 @@ module Flexipass
       set_server_address
     end
 
+    # Validates the configuration options.
+    # Raises a `ConfigurationError` if any required options are missing or if the environment is invalid.
     def validate!
       raise ConfigurationError, 'Username must be set' if @username.nil?
       raise ConfigurationError, 'Password must be set' if @password.nil?
@@ -34,9 +37,8 @@ module Flexipass
                           PROD_SERVER
                         end
     end
-
-
   end
 
+  # Custom error class for configuration-related errors.
   class ConfigurationError < StandardError; end
 end

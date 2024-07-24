@@ -31,13 +31,6 @@ Gem::Specification.new do |spec|
         f.end_with?('.gem')
     end
   end
-  # spec.files = Dir.chdir(__dir__) do
-  #   `git ls-files -z`.split("\x0").reject do |f|
-  #     (File.expand_path(f) == __FILE__) ||
-  #       f.start_with?(*%w[bin/ test/ spec/ features/ .git .circleci appveyor Gemfile
-  #       .rspec CHANGELOG.md CODE_OF_CONDUCT.md LICENSE.txt README.md Rakefile])
-  #   end
-  # end
   spec.bindir = "exe"
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
@@ -48,6 +41,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec', '~> 3.13'
   spec.add_development_dependency 'webmock', '~> 3.23', '>= 3.23.1'
   spec.add_development_dependency 'debug', '~> 1.8'
+  spec.add_development_dependency 'yard', '~> 0.9.36'
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
