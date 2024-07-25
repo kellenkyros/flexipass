@@ -14,13 +14,12 @@ Gem::Specification.new do |spec|
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
-  # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
-
-  spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/kellenkyros/flexipass"
   spec.metadata = {
+    "homepage_uri" => spec.homepage,
+    "source_code_uri" => "https://github.com/kellenkyros/flexipass",
     "documentation_uri" => "https://www.rubydoc.info/gems/flexipass/#{Flexipass::VERSION}"
   }
+  # spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
   # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
   # Specify which files should be added to the gem when it is released.
