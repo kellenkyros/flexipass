@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    flexipass (0.1.4)
+    flexipass (0.1.5)
       faraday (~> 2.7, >= 2.7.11)
       json (~> 2.7, >= 2.7.2)
 
