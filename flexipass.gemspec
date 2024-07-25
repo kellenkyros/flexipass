@@ -18,6 +18,9 @@ Gem::Specification.new do |spec|
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/kellenkyros/flexipass"
+  spec.metadata = {
+    "documentation_uri" => "https://www.rubydoc.info/gems/flexipass/#{Flexipass::VERSION}"
+  }
   # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
   # Specify which files should be added to the gem when it is released.
