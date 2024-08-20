@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    flexipass (0.1.6)
+    flexipass (0.1.7)
       faraday (~> 2.7, >= 2.7.11)
       json (~> 2.7, >= 2.7.2)
 
@@ -101,4 +101,4 @@ DEPENDENCIES
   yard (~> 0.9.36)
 
 BUNDLED WITH
-   2.4.14
+   2.5.17
