@@ -48,14 +48,14 @@ response = door.list
 ```
 
 #### Create a mobile key
-
+> Use door.list operation to find door
 ```
 mobile_key = client.mobile_key
 params = {
   Name: "John",
   Surname: "Doe",
   Mail: "john.doe@example.com",
-  Door: "101", // use door.list operation to find door
+  Door: "101",
   Checkin_date: "2023-07-01",
   Checkin_time: "14:00:00",
   Checkout_date: "2023-07-05",
